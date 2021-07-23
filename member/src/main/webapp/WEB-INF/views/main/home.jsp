@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div align="center">
+		<div>
+			<h1>멤버 관리 시스템에 오신것을 환영합니다.</h1>
+		</div>
+		<br>
+		<hr><!-- ---- -->
+		<br>
+		<div>
+			<h3><a href="memberList.do">회원 목록보기</a></h3>
+			<h3><a href="memberSearchForm.do">회원조회</a></h3>
+			<h3><a href="memberInsertForm.do">회원가입</a></h3>
+			<h3><a href="memberDeleteForm.do">회원삭제</a></h3>
+			<h3><a href="memberUpdateForm.do">회원수정</a></h3>
+		</div>
+	</div>
+</body>
+</html>
