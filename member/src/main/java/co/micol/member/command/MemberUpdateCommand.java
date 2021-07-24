@@ -23,7 +23,7 @@ public class MemberUpdateCommand implements Command {
 		MemberVO vo = new MemberVO();
 		vo.setId(request.getParameter("id"));
 		vo.setPassword(request.getParameter("password"));
-		vo.setName(request.getParameter("name"));
+		//vo.setName(request.getParameter("name"));
 		vo.setAge(Integer.valueOf(request.getParameter("age")));
 		vo.setHobby(hobby);
 		int result = dao.memberUpdate(vo);
