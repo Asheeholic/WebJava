@@ -14,7 +14,7 @@
 				<div>
 					<table border="1">
 						<tr>
-							<th width="150">ID</th>
+							<th width="150">수정할 ID</th>
 							<td width="400">
 								<input type="text" id="id" name="id" placeholder="아이디 입력" required="required">
 							</td>
@@ -29,12 +29,6 @@
 							<th width="150">비밀번호 확인</th>
 							<td width="400">
 								<input type="password" id="passcheck" name="passcheck" placeholder="비밀번호 확인" required="required">
-							</td>
-						</tr>
-						<tr>
-							<th width="150">이름</th>
-							<td width="400">
-								<input type="text" id="name" name="name" placeholder="이름 입력" required="required">
 							</td>
 						</tr>
 						<tr>
